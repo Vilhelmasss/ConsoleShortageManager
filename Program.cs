@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ConsoleShortageManager;
+
+public class Program
+{
+    private static void Main(string[] args)
+    {
+        CommandListener.StartListening();
+    }
+}

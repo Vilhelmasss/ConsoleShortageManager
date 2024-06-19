@@ -5,6 +5,11 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleShortageManager", "ConsoleShortageManager.csproj", "{417A04BF-18FB-4839-B473-33F11156300E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleShortageManager.Tests", "..\ConsoleShortageManager.Tests\ConsoleShortageManager.Tests.csproj", "{0BBEF6D5-21BB-47DA-8DFA-3BF1B0F215F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{417A04BF-18FB-4839-B473-33F11156300E} = {417A04BF-18FB-4839-B473-33F11156300E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{417A04BF-18FB-4839-B473-33F11156300E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417A04BF-18FB-4839-B473-33F11156300E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417A04BF-18FB-4839-B473-33F11156300E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBEF6D5-21BB-47DA-8DFA-3BF1B0F215F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBEF6D5-21BB-47DA-8DFA-3BF1B0F215F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBEF6D5-21BB-47DA-8DFA-3BF1B0F215F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBEF6D5-21BB-47DA-8DFA-3BF1B0F215F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
